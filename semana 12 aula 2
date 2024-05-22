@@ -1,0 +1,8 @@
+# Criando uma lista de números de 1 a 10
+numeros = list(range(1, 11))
+
+# Adicionando 1 a cada número na lista
+numeros = [numero + 1 for numero in numeros]
+
+# Imprimindo a lista modificada
+print(numeros)
